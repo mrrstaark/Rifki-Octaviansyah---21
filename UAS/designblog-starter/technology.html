@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Web Programming - Final Semester Exam</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet">
+
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style-starter.css">
+</head>
+<body>
+<!-- header -->
+<header class="w3l-header">
+    <nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="fa fa-pencil-square-o"></span> Design Blog</a>
+            <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <span class="fa icon-expand fa-bars"></span>
+                <span class="fa icon-close fa-times"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item @@home__active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categories <span class="fa fa-angle-down"></span>
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item active" href="technology.html">Technology posts</a>
+                            <a class="dropdown-item @@ls__active" href="lifestyle.html">Lifestyle posts</a>
+                        </div>
+                    </li>
+                    <li class="nav-item @@contact__active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item @@about__active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
+
+                <!-- Search functionality -->
+                <div class="search-right mt-lg-0 mt-2">
+                    <a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
+                    <div id="search" class="pop-overlay">
+                        <div class="popup">
+                            <h3 class="hny-title two">Search here</h3>
+                            <form action="#" method="Get" class="search-box">
+                                <input type="search" placeholder="Search for blog posts" name="search"
+                                       required="required" autofocus="">
+                                <button type="submit" class="btn">Search</button>
+                            </form>
+                            <a class="close" href="#close">×</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Toggle switch for light and dark theme -->
+            <div class="mobile-position">
+                <nav class="navigation">
+                    <div class="theme-switch-wrapper">
+                        <label class="theme-switch" for="checkbox">
+                            <input type="checkbox" id="checkbox">
+                            <div class="mode-container">
+                                <i class="gg-sun"></i>
+                                <i class="gg-moon"></i>
+                            </div>
+                        </label>
+                    </div>
+                </nav>
+            </div>
+            <!-- //Toggle switch for light and dark theme -->
+        </div>
+    </nav>
+</header>
+<!-- //header -->
+
+<nav id="breadcrumbs" class="breadcrumbs">
+    <div class="container page-wrapper">
+        <a href="index.html">Home</a> / Categories /<span class="breadcrumb_last" aria-current="page">Technology</span>
+    </div>
+</nav>
+
+<div class="w3l-searchblock w3l-homeblock1 py-5">
+    <div class="container py-lg-4 py-md-3">
+        <div class="row">
+            <div class="col-lg-8 most-recent">
+                <h3 class="section-title-left">Technology</h3>
+               
+                <div class="row">
+                    <!-- Article Item -->
+                    <div class="col-md-12 item">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative">
+                                <a href="#blog-single">
+                                    <img class="card-img-bottom d-block radius-image" src="assets/images/b1.jpg" alt="Card image cap">
+                                </a>
+                            </div>
+                            <div class="card-body p-0 blog-details">
+                                <a href="#blog-single" class="blog-desc">How To Be The First to Post A Comment on a Blog-Post?</a>
+                                <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi vitae sit.</p>
+                                <div class="author align-items-center mt-3 mb-1">
+                                    <a href="#author">Johnson Smith</a> in <a href="#url">Design</a>
+                                </div>
+                                <ul class="blog-meta">
+                                    <li class="meta-item blog-lesson"><span class="meta-value">April 13, 2020</span></li>
+                                    <li class="meta-item blog-students"><span class="meta-value">6min read</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Repeat the above block for each article -->
+                    <!-- Article Item -->
+                    <div class="col-lg-6 col-md-6 item mt-5 pt-lg-3">
+                        <div class="card">
+                            <div class="card-header p-0 position-relative">
+                                <a href="#blog-single">
+                                    <img class="card-img-bottom d-block radius-image" src="assets/images/p1.jpg" alt="Card image cap">
+                                </a>
+                            </div>
+                            <div class="card-body p-0 blog-details">
+                                <a href="#blog-single" class="blog-desc">How to Start a Blog and make money every Month from it</a>
+                                <p>Lorem ipsum dolor sit amet consectetur ipsum adipisicing elit. Qui eligendi vitae sit.</p>
+                                <div class="author align-items-center mt-3 mb-1">
+                                    <a href="#author">Johnson Smith</a> in <a href="#url">Design</a>
+                                </div>
+                                <ul class="blog-meta">
+                                    <li class="meta-item blog-lesson"><span class="meta-value">April 13, 2020</span></li>
+                                    <li class="meta-item blog-students"><span class="meta-value">6min read</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Add more article items here -->
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination-wrapper mt-5">
+                    <ul class="page-pagination">
+                        <li><span aria-current="page" class="page-numbers current">1</span></li>
+                        <li><a class="page-numbers" href="#url">2</a></li>
+                        <li><a class="page-numbers" href="#url">3</a></li>
+                        <li><a class="page-numbers" href="#url">4</a></li>
+                        <li><a class="page-numbers" href="#url">....</a></li>
+                        <li><a class="page-numbers" href="#url">15</a></li>
+                        <li><a class="next" href="#url"><span class="fa fa-angle-right"></span></a></li>
+                    </ul>
+                </div>
+                <!-- //Pagination -->
+            </div>
+            <div class="col-lg-4 trending mt-lg-0 mt-5 mb-lg-5">
+                <div class="pos-sticky">
+                    <h3 class="section-title-left">Trending Technology Posts</h3>
+
+                    <div class="grids5-info">
+                        <h4>01.</h4>
+                        <div class="blog-info">
+                            <a href="#blog-single" class="blog-desc1">How To Start A Blog From Scratch</a>
+                            <div class="author align-items-center mt-2 mb-1">
+                                <a href="#author">Johnson Smith</a> in <a href="#url">Design</a>
+                            </div>
+                            <ul class="blog-meta">
+                                <li class="meta-item blog-lesson"><span class="meta-value">April 13, 2020</span></li>
+                                <li class="meta-item blog-students"><span class="meta-value">6min read</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grids5-info">
+                        <h4>02.</h4>
+                        <div class="blog-info">
+                            <a href="#blog-single" class="blog-desc1">5 Tips for Successful Blogging</a>
+                            <div class="author align-items-center mt-2 mb-1">
+                                <a href="#author">Sarah Connor</a> in <a href="#url">Tech</a>
+                            </div>
+                            <ul class="blog-meta">
+                                <li class="meta-item blog-lesson"><span class="meta-value">April 13, 2020</span></li>
+                                <li class="meta-item blog-students"><span class="meta-value">4min read</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Add more trending items as needed -->
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-main py-5">
+        <div class="container">
+            <div class="footer-top">
+                <h2 class="footer-title">Quick Links</h2>
+                <div class="row footer-grids">
+                    <div class="col-lg-3 col-md-6 footer-grid">
+                        <h4>About Us</h4>
+                        <ul class="footer-list">
+                            <li><a href="#url">Our History</a></li>
+                            <li><a href="#url">Our Team</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-grid">
+                        <h4>Contact</h4>
+                        <ul class="footer-list">
+                            <li><a href="#url">Email Us</a></li>
+                            <li><a href="#url">Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-grid">
+                        <h4>Follow Us</h4>
+                        <ul class="footer-list">
+                            <li><a href="#url">Facebook</a></li>
+                            <li><a href="#url">Twitter</a></li>
+                            <li><a href="#url">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Template JavaScript -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/theme-change.js"></script>
+</body>
+</html>
